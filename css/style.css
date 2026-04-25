@@ -1,19 +1,33 @@
 /*CSS global */
 html {
   font-size: 12px;
-
+  line-height: 1.5;
 }
 
 /* Media query: (para mudar o tamanho de fonte do elemento de referência)/
 baseado no tamanho da tela */
 @media screen and (min-width: 600px) {
   html {
-    color: red;
     font-size: 14px;
   }
 }
 
+p::first-letter {
+  font-size: 4em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+}
+
 h1 {
+  /* border: 5em solid purple */
+  border-left-width: .5em;
+  border-left-color: purple;
+  border-left-style: solid;
+
+  padding: .5em; /*preenchimento: Dentro do elemento */
+  margin: 0;
+
+  background-color: #dc5252;
   font-size: 2rem;
-  line-height: 1.5;
 }
