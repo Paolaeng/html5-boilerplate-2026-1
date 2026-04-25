@@ -12,7 +12,7 @@ baseado no tamanho da tela */
   }
 }
 
-p::first-letter {
+p:first-of-type:first-letter {
   font-size: 4em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
